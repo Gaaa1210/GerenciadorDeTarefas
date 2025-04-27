@@ -10,4 +10,5 @@ public class GerenciadorDeTarefas1Application {
 		SpringApplication.run(GerenciadorDeTarefas1Application.class, args);
 	}
 }
+
 //

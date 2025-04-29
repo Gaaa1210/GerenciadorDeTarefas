@@ -12,13 +12,12 @@ public class Category {
     private Long id;
     private String name;
 
-    // Construtores
     public Category() {}
     public Category(String name) {
         this.name = name;
     }
 
-    // Getters e Setters
+
     public Long getId() { return id; }
     public String getName() { return name; }
     public void setId(Long id) { this.id = id; }

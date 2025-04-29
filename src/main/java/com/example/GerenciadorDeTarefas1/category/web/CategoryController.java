@@ -9,7 +9,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/categories")
 public class CategoryController {
-
     private final CategoryRepositoryPort repository;
 
     public CategoryController(CategoryRepositoryPort repository) {

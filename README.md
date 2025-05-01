@@ -4,7 +4,7 @@ API para gerenciamento de usuários, categorias e tarefas.
 
 ## Endpoints
 
-### 1. Criar Usuário
+1. Criar Usuário
 **POST**  
 `http://localhost:8080/users`
 
@@ -16,7 +16,7 @@ API para gerenciamento de usuários, categorias e tarefas.
 
 2. Criar Categoria
 POST
-http://localhost:8080/categories
+`http://localhost:8080/categories`
 
 **Body (JSON):**
 {
@@ -25,7 +25,7 @@ http://localhost:8080/categories
 
 3. Criar Tarefa
 POST
-http://localhost:8080/tasks/1?categoryId=1
+`http://localhost:8080/tasks/1?categoryId=1`
 
 **Body (JSON):**
 {
@@ -36,8 +36,8 @@ http://localhost:8080/tasks/1?categoryId=1
 
 4. Listar Tarefas
 GET
-http://localhost:8080/tasks
+`http://localhost:8080/tasks`
 
 5. Concluir Tarefa
 PATCH
-http://localhost:8080/tasks/1/complete
+`http://localhost:8080/tasks/1/complete`
